@@ -43,6 +43,14 @@ body {
 }
 
 /* CRYPTO RESULTS CONTAINER */
+#cryptoResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  width: 100%;
+}
+
 .crypto-results-container {
   border: solid;
   border-radius: 20px;
