@@ -42,26 +42,25 @@ body {
   align-items: right;
 }
 
-/* RESULTS CONTAINER */
-
-
 /* CRYPTO RESULTS CONTAINER */
 .crypto-results-container {
-  display: flex;
-  justify-content: space-between;
   border: solid;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.crypto-results-tr {
+.crypto-results-item {
   display: flex;
   justify-content: space-between;
+
 }
 
 /* NAVIGATION BAR */
 .navbar-container {
   color: 	#cbcfd9;
-  background-color: #39383a;
+  background-color: #2e4a62;
   padding: 20px 0;
   display: flex;
   justify-content: center;
@@ -89,7 +88,7 @@ body {
 /* FOOTER BAR */
 .footer-container {
   color: 	#cbcfd9;
-  background-color: #39383a;
+  background-color: #2e4a62;
   padding: 20px 0;
   display: flex;
   justify-content: center;
